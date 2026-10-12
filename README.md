@@ -6,7 +6,27 @@ giusti (titolo, data, numero, descrizione) e, se vuoi, un feed RSS. Le cartelle
 che produce si possono dare in pasto direttamente ad
 [Audiobookshelf](https://www.audiobookshelf.org) come libreria podcast.
 
-Due script:
+## Perché
+
+Negli anni Radio Blackout ha accumulato un archivio enorme di trasmissioni:
+inchieste, approfondimenti e voci che difficilmente trovano spazio altrove. È
+una fonte di informazione indipendente, libera dalle logiche del giornalismo
+commerciale e dalla disinformazione. Però sul sito le puntate sono sparse,
+spesso divise in più file e scomode da ascoltare di fila.
+
+ra2po nasce per rendere quell'archivio facile da ascoltare: ogni show diventa
+un podcast ordinato, con le puntate numerate, da seguire su qualsiasi app.
+
+Per ospitarlo in casa e condividerlo con chi vuoi, consiglio
+[Audiobookshelf](https://www.audiobookshelf.org): un server self-hosted e open
+source per podcast e audiolibri, con app per Android e iOS, che ricorda dove sei
+arrivato e può pubblicare un feed RSS per ogni podcast. Così i contenuti restano
+sul tuo server, senza passare dalle grandi piattaforme.
+
+Il progetto è stato scritto in *vibe coding* con
+[Claude Code](https://claude.com/claude-code).
+
+## Gli script
 
 | Script | A cosa serve |
 |---|---|
