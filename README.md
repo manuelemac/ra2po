@@ -67,9 +67,9 @@ Le scelte del menu sono salvate in `~/.config/blackout2podcast/config.json`.
    ```bash
    python3 aggiorna-podcast.py --prova
    ```
-3. Aggiungi il cron (`crontab -e`), per esempio ogni lunedì alle 6:
+3. Aggiungi il cron (`crontab -e`), di notte, per esempio ogni lunedì alle 3:30:
    ```
-   0 6 * * 1 flock -n /tmp/aggiorna-podcast.lock /percorso/ra2po/aggiorna-podcast.py >> ~/aggiorna-podcast.log 2>&1
+   30 3 * * 1 flock -n /tmp/aggiorna-podcast.lock /percorso/ra2po/aggiorna-podcast.py >> ~/aggiorna-podcast.log 2>&1
    ```
 
 Come decide cosa scaricare: guarda la data dell'ultima puntata presente nella
@@ -84,6 +84,20 @@ nella stessa cartella, quello show viene saltato.
 
 Sono contenuti autoprodotti di una radio libera: scaricali per uso personale,
 rispetta le indicazioni della redazione e, se ti piacciono, sostienila.
+
+Radio Blackout è una radio autogestita, con risorse limitate: scarica con
+criterio e senza sovraccaricare il suo server.
+
+- **Scarica di notte.** Lancia i download grossi e programma il cron in orari
+  notturni, quando il sito ha meno ascoltatori.
+- **Una cosa alla volta.** Scarica uno show per volta, senza processi in
+  parallelo. Gli script fanno già una pausa tra una richiesta e l'altra: non
+  toglierla.
+- **Solo quello che ascolterai.** Prima di scaricare un archivio di centinaia
+  di puntate, chiediti se ti serve tutto. Per tenerti aggiornato basta il cron
+  una volta alla settimana.
+- **Non riscaricare.** Gli script saltano le puntate che hai già: tieni i file
+  dove sono, invece di ricominciare da zero.
 
 ## Licenza
 
