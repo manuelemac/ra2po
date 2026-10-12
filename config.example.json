@@ -1,0 +1,11 @@
+{
+ "cartella": "/percorso/dei/podcast",
+ "show": {
+  "nome-cartella": "slug-dello-show",
+  "stakka-stakka": "stakka-stakka"
+ },
+ "audiobookshelf": {
+  "url": "http://127.0.0.1:13378/audiobookshelf",
+  "token_file": "~/.config/abs/token"
+ }
+}
