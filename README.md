@@ -23,7 +23,7 @@ source per podcast e audiolibri, con app per Android e iOS, che ricorda dove sei
 arrivato e può pubblicare un feed RSS per ogni podcast. Così i contenuti restano
 sul tuo server, senza passare dalle grandi piattaforme.
 
-Il progetto è stato scritto in *vibe coding* 
+Il codice sorgente del progetto è stato interamente creato in modalità "vibe coding"
 
 ## Gli script
 
