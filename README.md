@@ -2,7 +2,7 @@
 
 Scarica le trasmissioni di [Radio Blackout](https://radioblackout.org) e ne fa
 un podcast: un mp3 per puntata (i pezzi uniti in un file solo), con i tag ID3
-giusti (titolo, data, numero, descrizione) e, se vuoi, un feed RSS. Le cartelle
+(titolo, data, numero, descrizione) e, se vuoi, un feed RSS. Le cartelle
 che produce si possono dare in pasto direttamente ad
 [Audiobookshelf](https://www.audiobookshelf.org) come libreria podcast.
 
@@ -82,7 +82,7 @@ nella stessa cartella, quello show viene saltato.
 ## Nota
 
 Sono contenuti autoprodotti di una radio libera: scaricali per uso personale,
-rispetta le indicazioni della redazione e, se ti piacciono, sostienila.
+rispetta le indicazioni e, se ti piacciono, sostienila! 
 
 Radio Blackout è una radio autogestita, con risorse limitate: scarica con
 criterio e senza sovraccaricare il suo server.
@@ -95,8 +95,6 @@ criterio e senza sovraccaricare il suo server.
 - **Solo quello che ascolterai.** Prima di scaricare un archivio di centinaia
   di puntate, chiediti se ti serve tutto. Per tenerti aggiornato basta il cron
   una volta alla settimana.
-- **Non riscaricare.** Gli script saltano le puntate che hai già: tieni i file
-  dove sono, invece di ricominciare da zero.
 
 ## Licenza
 
